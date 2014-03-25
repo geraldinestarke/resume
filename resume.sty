@@ -70,11 +70,14 @@
 \RequirePackage[T1]{fontenc}
 \RequirePackage{CV}
 
+\RequirePackage{eurosym}
+
 % multilanguages support
-\newcommand{\lang}[2]
+\newcommand{\lang}[3]
 {%
   \if@en#1\fi%
   \if@fr#2\fi%
+  \if@fr#3\fi%
 }
 
 % multicontexts support
